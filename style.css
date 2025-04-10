@@ -1,0 +1,356 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 36px; /* Adjust the size as needed */
+    font-weight: bold; /* Make it bold */
+    color: #FFFFFF;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 250px 20px;
+}
+.banner {
+    background-image: url('https://s.yimg.com/uu/api/res/1.2/aAc7HVnQWVH.xqllcygELg--~B/aD0yMzM4O3c9NDE1NjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pa_viral_news_uk_120/fddc3d374c6eb71f6d9b03e2d0a64b12');
+    background-size: cover; /* Ensures the image covers the entire banner */
+    background-position: center; /* Centers the image */
+}
+
+.explore-btn {
+    position: absolute;
+    top: 15px; /* Distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Button color */
+    color: #000; /* Font color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.explore-btn:hover {
+    background-color: #ffc300; /* Button hover color */
+}
+
+.search {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search form {
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    margin: 5px;
+    padding: 10px;
+}
+
+.services {
+    text-align: center;
+}
+
+.service-item {
+    display: inline-block;
+    margin: 20px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.128);
+}
+
+.modal-content {
+    background: linear-gradient(to bottom right, #011018ef, #00020e); /* Gradient background */
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px; /* Adjusted width */
+    margin: auto;
+    color: white; /* Text color */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none; /* Remove border */
+    border-radius: 5px; 
+}
+
+button {
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(25% - 20px);
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4a90e2;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+p {
+    color: #666;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tabs input {
+    display: none;
+}
+
+.tabs label {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.tabs label.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+.form-section {
+    display: flex;
+    align-items: center;
+}
+
+.station-input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.station-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.arrow {
+    font-size: 24px;
+}
+
+.date-input {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.date-input input {
+    padding: 10px;
+}
+
+.refund-option {
+    margin-top: 10px;
+}
+
+.search-button {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.search-button:hover {
+    background-color: #E64A19;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #0c0000;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.socials a img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ffffff;
+}
