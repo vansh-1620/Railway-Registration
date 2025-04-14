@@ -39,7 +39,7 @@ header nav ul li a {
     padding: 250px 20px;
 }
 .banner {
-    background-image: url('https://s.yimg.com/uu/api/res/1.2/aAc7HVnQWVH.xqllcygELg--~B/aD0yMzM4O3c9NDE1NjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pa_viral_news_uk_120/fddc3d374c6eb71f6d9b03e2d0a64b12');
+    background-image: url('https://media.canva.com/v2/image-resize/format:JPG/height:452/quality:92/uri:ifs%3A%2F%2F%2F17bc544a-4946-4a67-8c87-77e9acf030af/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAK1G8yPzMQBq0VgNwJ0SVV9zcGKp4hCrDitud0mw-w4C&exp=1744626525&osig=AAAAAAAAAAAAAAAAAAAAAHzf7RztjdcUqELD3pX2p6e5rIKvxXSq8zKN-9e1hiKz&signer=media-rpc&x-canva-quality=screen');
     background-size: cover; /* Ensures the image covers the entire banner */
     background-position: center; /* Centers the image */
 }
@@ -353,4 +353,59 @@ ul li a:hover {
     text-align: center;
     padding: 10px 0;
     border-top: 1px solid #ffffff;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://s.yimg.com/uu/api/res/1.2/aAc7HVnQWVH.xqllcygELg--~B/aD0yMzM4O3c9NDE1NjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pa_viral_news_uk_120/fddc3d374c6eb71f6d9b03e2d0a64b12') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select, input {
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FFA500;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF8C00;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
 }
