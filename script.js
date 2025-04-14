@@ -34,3 +34,15 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     // Perform your login logic here (e.g., authentication)
     alert(`Email: ${email}\nPassword: ${password}`);
 });
+document.getElementById('seat-availability-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const fromStation = document.getElementById('from-station').value;
+    const toStation = document.getElementById('to-station').value;
+    const date = document.getElementById('date').value;
+
+    // Sample logic for seat availability (just for demonstration)
+    const resultText = `Available seats from ${fromStation} to ${toStation} on ${date}: 10 seats available.`;
+
+    document.getElementById('result').innerText = resultText;
+});
