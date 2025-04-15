@@ -1,157 +1,1946 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>GoRails</title>
-</head>
-<body>
-    <header>
-        <div class="logo">GoRails</div>
-        <nav>
-            <ul>
-                <li><a href="#">Book Train Tickets</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="seat availability.html">Seat Availability</a></li>
-                <li><a href="#" onclick="openLogin()">Login</a></li>
-                <li><a href="#" onclick="openRegister()">Register</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section class="banner">
-            
-            <a class="explore-btn" href="#content">Explore Now</a>
-        </section>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="/seo-ui-assets/assets/images/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/seo-ui-assets/assets/images/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/seo-ui-assets/assets/images/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/seo-ui-assets/assets/images/apple-touch-icon.png" />
+  <title>
+    Book Train Tickets Online &amp; Check Train PNR Status | Trainman
+  </title>
+  <meta name="description" content="Book IRCTC train tickets online on Trainman. Get confirmed Train Ticket, Tatkal tickets, check PNR status, Seat Availability, Waiting list and live train running status with Trainman Ticket booking App." />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Train ticket booking, irctc ticket booking, online train ticket booking, book train ticket, indian railway ticket booking, rail ticket booking, irctc train booking, railway ticket, train ticket availability, irctc train ticket booking, online railway ticket booking, mobile train ticket booking, how to book train tickets" />
 
-        <center><h1>BOOKS TRAIN TICKETS</h1></center>
-        <div class="form-section" id="content">
-            <div class="station-input">
-                <label for="from-station">From Station</label>
-                <input type="text" id="from-station">
-            </div>
-            <div class="arrow">⇒</div>
-            <div class="station-input">
-                <label for="to-station">To Station</label>
-                <input type="text" id="to-station" >
-            </div>
+  <link rel="preconnect" href="https://www.namniart.in" />
+  <link rel="dns-prefetch" href="https://www.namniart.in" />
+  <script>
+    config = {
+      baseUrl: 'https://www.trainman.in',
+    };
+    try {
+      var bannerFlag = localStorage.getItem('topBarHidden');
+      if(bannerFlag) {
+        document.querySelector('html').classList.add('hideInfoBanner');
+      }
+      document.addEventListener('DOMContentLoaded', async function() {
+      if (window.location.href.includes('platform=app')) {
+        document?.body?.classList.add('app');
+      }
+    })
+    } catch(e) {}
+   
+  </script>
+  
+  
+ 
+  <link rel="canonical" href="https://www.trainman.in" />
+  
 
-            <div class="date-input">
-                <label for="date">Date</label>
-                <input type="date" id="date" >
-            </div>
+  <link rel="stylesheet" defer="" type="text/css"
+    href="style.css" />
 
-            <div class="refund-option">
-                <input type="checkbox" id="refund-option">
-                <label for="refund-option">Get full refund on Cancellation</label>
-                <span>Pay ZERO cancellation charges</span>
+  
+ 
+  <script type="text/javascript">
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5ZHZ2ZPG');
+  </script>
+  
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"true","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"SJ-a2a96fb9-52ef-4149-ba36-87c1d06bdb85","rua.cook":"true","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"true","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="EPL2S-RMWRS-VXKQC-F2ECN-C7GHB",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"EPL2S-RMWRS-VXKQC-F2ECN-C7GHB";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n="true"=="true"?1:0,t="cookiepresent",a="op3epkqx2qagyz76clva-f-09a43554c-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"39","ak.cp":"1508829","ak.ai":parseInt("957805",10),"ak.ol":"0","ak.cr":28,"ak.ipv":4,"ak.proto":"h2","ak.rid":"51d17b8c","ak.r":51065,"ak.a2":n,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"115.246.71.0","ak.cport":51717,"ak.gh":"23.197.28.53","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1744704234","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==1uHZmMVxOTTGe7uzXpaFc+CrvAcrx5xLfjmoFE77mpIRB4kvIQPByzdHb8NsAL6HIjelM80Aejlg+gEAqpp2SrXpreUdqB8wPvTpSRPiuAzOGX3R54YvNdTTtOij2uFdlxDBoHj4MpcMERTQpRqBl4tZAjKtjVABvS1TJVMeIkZ4A67qmjw0DUX8AgLz2jlFM7QQ36jdO06ssMejuMsb6yG/H1+EP01ivTVSyR65B3ZrP0PwKNn8TokGeuMAJ8hNmIRp+bqsUTwKvM8ocXjmcur9hcw7QhHznq/nXwybn2MEKZU2/tz58QnYBb3dJGvnoq6k9ri1dJFllp5HSXLv7ww4X0N0GzD4imX7Ju/jGBI+0+OWAqgsIKd3oFKcEuotirg++QqmXgpH8oTiG7+iO7gKgGnB125lME7FuRAD0UQ=","ak.pv":"78","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body class="seo-body" data-aks-tag="2.0.358" data-device="desktop">
+  
+   <div>
+    <div class="top_b" id="top_b">
+
+      <div class="d_flex flex_jc_sb flex_ai_cent h54">
+        <div class="left_section d_flex flex_jc_sb flex_jc_c">
+          <div style="margin: -6px 16px 0 0"> 
+            <img src="/seo-ui-assets/assets/images/adani-one-new.svg"
+              srcset="/seo-ui-assets/assets/images/adani-one-new.svg 1x" width="120" alt="Adani one app" />
+          </div>
+          <div class="adl-acquisition-text d-flex ng-tns-c70-0 f14" style="display: flex;
+        align-items: center;
+        justify-content: center;">
+            <div class="adl-heading ng-tns-c70-0">
+              Trainman Acquired by <b class="fw-600 ng-tns-c70-0">ADANI DIGITAL LABS </b> : Empowering Journeys Ahead.
             </div>
+            <div class="adl-links d-flex ng-tns-c70-0" style="margin: 0 0 0 8px; text-decoration: underline;">
+              <a style="color: white;" class="d-flex-cen ng-tns-c70-0" href="/media-coverage"> Know more </a>
+            </div>
+          </div>
+        </div>
+        <div class="icon" id="close_top_bar">
+          <i class="i-cross f18"></i>
         </div>
 
-        <button class="search-button">Search</button>
-        
+      </div> 
     </div>
-    
-        <div class="container">
-            <h1>Why Book Train Tickets with Us?</h1>
-            <div class="card-container">
-                <div class="card">
-                    <div class="icon">₹0 Fee</div>
-                    <h3>Free Cancellation</h3>
-                    <p>Get a full refund on your ticket cancellation.</p>
-                </div>
-                <div class="card">
-                    <div class="icon">94%</div>
-                    <h3>94% Accurate Predictions</h3>
-                    <p>Know your chances of ticket confirmation.</p>
-                </div>
-                <div class="card">
-                    <div class="icon">No Fee</div>
-                    <h3>No Payment Gateway Fee</h3>
-                    <p>Zero Payment Gateway Charges via UPI mode.</p>
-                </div>
-                <div class="card">
-                    <div class="icon">Support</div>
-                    <h3>Expert Customer Support</h3>
-                    <p>Get answers to all your queries within minutes.</p>
-                </div>
-            </div>
+  
+      <!-- Header Side Nav Menu -->
+<div class="header-side-nav-menu">
+  <div class="sidenav">
+    <div class="inner">
+      <div class="login-user-links">
+        <div class="login-user login d_none btn">
+          <a href="/login">
+            <span><i class="i-person user-icon"></i> Login</span>
+            <span class="right-arrow"><i class="i-arrow-left"></i></span>
+          </a>
         </div>
-    </main>
+        <div class="login-user login d_none user_info">
+          <a href="/auth/profile">
+            <div class="d-flex-ai-c">
+              <img src="" srcset=""
+                width="44" height="44" alt="User" class="mr12 userGender user_pic" />
+              <div class="d_flex flex_dir_col">
+                <span class="userName f_bold t_tra_cap no_newline"></span>
+                <div>
+                  <span class="t_underline f14">View Profile</span>
+                </div>
+              </div>
+            </div>
+            <span class="right-arrow"><i class="i-arrow-left"></i></span>
+          </a>
+        </div>
 
-    <footer>
-        <p><center>© Copyright 2025.VS</center></p>
-        <footer>
-            <div class="footer-container" id="contact">
-                <div class="footer-section about">
-                    <h2>GoRails</h2>
-                    <p>IRCTC Authorized Partner for train ticket booking</p>
-                    <div class="socials">
-                        <a href="#"><img src="https://th.bing.com/th/id/ODLS.ed551f5f-86b4-4f3c-b131-c5f6234517b7?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2" alt="Facebook"></a>
-                        <a href="#"><img src="https://th.bing.com/th/id/ODLS.f6476f17-1068-4ccf-848c-236667b37fb5?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" alt="X"></a>
-                        <a href="#"><img src="https://th.bing.com/th/id/ODLS.7e9375d5-26a4-4702-bb17-c140827dc762?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2" alt="Instagram"></a>
-                        <a href="#"><img src="https://th.bing.com/th/id/ODLS.c1b94e26-52d8-4d85-8faf-a367583929ce?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2" alt="LinkedIn"></a>
+        <div class="sideNav-links" id="sideNav-links">
+          <ul>
+            <li>
+              <h5>Services</h5>
+              <ul>
+                <li class="home_icon">
+                  <a href="/">
+                    <span class="left-icon"><i class="i-home home_icon"></i></span>
+                    Home</a>
+                </li>
+                <li>
+                  <a href="/pnr">
+                    <span class="left-icon"><i class="i-pnr_status"></i></span>
+                    PNR Status</a>
+                </li>
+                <li>
+                  <a href="/seat-availability">
+                    <span class="left-icon"><i class="i-seat_availability"></i></span>
+                    Seat Availability</a>
+                </li>
+                <li>
+                  <a href="/running-status">
+                    <span class="left-icon"><i class="i-running_status"></i></span>
+                    Running Status</a>
+                </li>
+                <li>
+                  <a href="/coach-position">
+                    <span class="left-icon"><i class="i-coach_position"></i></span>
+                    Coach Position</a>
+                </li>
+                <li>
+                  <a href="/train-time-table">
+                    <span class="left-icon"><i class="i-train_route"></i></span>
+                    Train Schedule</a>
+                </li>
+                <li>
+                  <a href="/train-between-stations">
+                    <span class="left-icon"><i class="i-train_between_stations"></i></span>
+                    Train Between Stations</a>
+                </li>
+                <li>
+                  <a href="/fare">
+                    <span class="left-icon"><i class="i-fare_calculator"></i></span>
+                    Fare Calculator
+                  </a>
+                </li>
+                <li>
+                  <a href="/station">
+                    <span class="left-icon"><i class="i-station_details"></i></span>
+                    Station Details</a>
+                </li>
+                <li>
+                  <a href="/ta/terms-and-conditions">
+                    <span class="left-icon"><i class="i-trip_assurance"></i></span>
+                    Trip Assurance</a>
+                </li>
+                <li>
+                  <a href="/fcs/terms-and-conditions">
+                    <span class="left-icon"><i class="i-free_cancellation"></i></span>
+                    Free Cancellation</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="accordion hide">
+              <h5 class="link_title">Train Facts & Tips <i class="i-arrow-left rotate"></i></h5>
+              <ul class="mt4">
+                <li>
+                  <a href="/article/irctc-qna">
+                    <span class="left-icon"><i class="i-irctc_qna"></i></span>
+                    IRCTC Q&A</a>
+                </li>
+                <li>
+                  <a href="/article/type-of-train-in-india">
+                    <span class="left-icon"><i class="i-train_categories"></i></span>
+                    Train Categories</a>
+                </li>
+                <li>
+                  <a href="/blogs">
+                    <span class="left-icon"><i class="i-blogs"></i></span>
+                    Travel Blogs
+                  </a>
+                </li>
+                <li>
+                  <a href="/article/indian-railway-train-classes">
+                    <span class="left-icon"><i class="i-travel_classes"></i></span>
+                    Travel Classes</a>
+                </li>
+                <li>
+                  <a href="/article/all-about-tickets">
+                    <span class="left-icon"><i class="i-ticket_status"></i></span>
+                    Ticket Status</a>
+                </li>
+                <li>
+                  <a href="/article/trends-analysis">
+                    <span class="left-icon"><i class="i-trends_analysis"></i></span>
+                    Trends Analysis</a>
+                </li>
+                <li>
+                  <a href="/article/indian-railway-quota">
+                    <span class="left-icon"><i class="i-indian_railway_quota"></i></span>
+                    Indian Railway Quota</a>
+                </li>
+                <li>
+                  <a href="/article/foreign-tourist-quota">
+                    <span class="left-icon"><i class="i-foreign_tourist_quota"></i></span>
+                    Foreign Tourist Quota</a>
+                </li>
+                <li>
+                  <a href="/article/tatkal-booking-tips">
+                    <span class="left-icon"><i class="i-tatkal_booking_tips"></i></span>
+                    Tatkal Booking Tips</a>
+                </li>
+                <li>
+                  <a href="/article/train-tips">
+                    <span class="left-icon"><i class="i-train_tips"></i></span>
+                    Train Tips</a>
+                </li>
+              </ul>
+            </li>
+            <li class="accordion hide">
+              <h5 class="link_title">Others <i class="i-arrow-left rotate"></i></h5>
+              <ul class="mt4">
+                <li>
+                  <a href="/about-us">
+                    <span class="left-icon"><i class="i-about_us"></i></span>
+                    About Us</a>
+                </li>
+                <li>
+                  <a href="/faqs">
+                    <span class="left-icon"><i class="i-faqs"></i></span>
+                    Trainman FAQs</a>
+                </li>
+                <li>
+                  <a href="/terms-and-conditions">
+                    <span class="left-icon"><i class="i-terms_and_conditions"></i></span>
+                    Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="/privacy-policy">
+                    <span class="left-icon"><i class="i-privacy_policy"></i></span>
+                    Privacy Policy
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h5>SCAN TO DOWNLOAD APP</h5>
+              <div class="scan">
+                <img src="/seo-ui-assets/assets/images/qr_code_app_download.jpg" alt="Scan Code" loading="lazy" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="side-nav-logo">
+        <img src="/seo-ui-assets/assets/images/trainman-adani-logo.webp" alt="Trainman" loading="lazy" />
+      </div>
+    </div>
+  </div>
+  <div class="overlay"></div>
+</div>
+
+
+    <!-- New Header -->
+    <div class="d_flex flex_ai_cent header-primary" id="header-primary">
+      <div class="container-fluid d-flex-jc-sb">
+        <div class="main-nav d-flex-jc-sb">
+          <div class="menu-logo">
+            <div class="menu" id="hamburger"><i class="i-menu_hamburger"></i></div>
+            <div class="logo">
+              <a href="/"><img src="/seo-ui-assets/assets/images/trainman-logo.svg"
+                  srcset="/seo-ui-assets/assets/images/trainman-logo.svg 1x" width="211" height="46"
+                  alt="Trainman" /></a>
+            </div>
+          </div>
+          
+          <div class="nav_wrapper">
+            <div class="d_flex flex_ai_cent">
+              <div class="nav">
+                <ul class="d_flex flex_ai_cent">
+                  <li>
+                    <a href="/pnr">
+                      PNR Status
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/running-status">
+                      Running Status</a>
+                  </li>
+                  <li>
+                    <a href="/seat-availability">
+                      Seat Availability</a>
+                  </li>
+                  <li>
+                    <a href="/coach-position">
+                      Coach Position</a>
+                  </li>
+                  <li>
+                    <label class="sub_parent">More</label>
+                    <div class="sub_nav p50">
+                      <div class="d_flex flex_ai_s">
+                        <div class="links">
+                          <label class="f16 f_bold d_block mb14 ml10">More Features</label>
+                          <ul>
+                            <li>
+                              <a href="/train-time-table">Train Schedule</a>
+                            </li>
+                            <li>
+                              <a href="/train-between-stations">
+
+                                Train Between Stations</a>
+                            </li>
+                            <li>
+                              <a href="/fare">
+
+                                Fare Calculator
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/station">
+
+                                Station Details</a>
+                            </li>
+                            <li>
+                              <a href="/ta/terms-and-conditions">
+
+                                Trip Assurance</a>
+                            </li>
+                            <li>
+                              <a href="/fcs/terms-and-conditions">
+
+                                Free Cancellation</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="links">
+                          <label class="f16 f_bold d_block mb14 ml10">Train Facts</label>
+                          <ul>
+                            <li>
+                              <a href="/article/irctc-qna">
+                                IRCTC Q&A</a>
+                            </li>
+                            <li>
+                              <a href="/article/type-of-train-in-india">
+                                Train Categories</a>
+                            </li>
+                            <li>
+                              <a href="/blogs">
+                                Travel Blogs
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/article/indian-railway-train-classes">
+
+                                Travel Classes</a>
+                            </li>
+                            <li>
+                              <a href="/article/all-about-tickets">
+
+                                Ticket Status</a>
+                            </li>
+                            <li>
+                              <a href="/article/trends-analysis">
+
+                                Trends Analysis</a>
+                            </li>
+
+                          </ul>
+                        </div>
+                        <div class="links">
+                          <label class="f16 f_bold d_block mb14"></label>
+                          <ul>
+                            <li>
+                              <a href="/article/indian-railway-quota">
+                                Indian Railway Quota</a>
+                            </li>
+                            <li>
+                              <a href="/article/foreign-tourist-quota">
+                                Foreign Tourist Quota</a>
+                            </li>
+                            <li>
+                              <a href="/article/tatkal-booking-tips">
+                                Tatkal Booking Tips</a>
+                            </li>
+                            <li>
+                              <a href="/article/train-tips">
+                                Train Tips</a>
+                            </li>
+                            <li>
+                              <a href="/faqs">
+                                Trainman FAQs</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- New Header 
+          <div class="menu_search">
+            <span>
+                <i class="i-search user-icon f16 c_333 "></i>
+            </span>
+            <div class="menu_search_result">
+                <div class="seacrh_box">
+                  <div class="search_bg">
+                      <i class="i-search user-icon f12 c_333 mr6"></i>
+                      <input placeholder="Search Trainman Services" type="text">
+                  </div> 
                 </div>
-                <div class="footer-section quick-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Trains</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Register</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section information">
-                    <h3>Information</h3>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section contact">
-                    <h3>Contact Us</h3>
-                    <p>📞 +91 1234567890</p>
-                    <p>✉️ support@GoRails.in</p>
-                    <p>📍 New Delhi, India</p>
-                </div>
+                <div class="search_heading">
+                      <i class="i-popular-station user-icon f12 c_333 mr6"></i> 
+                      POPULAR SEARCHES
+                </div> 
             </div>
-            <div class="footer-bottom">
-                <p>© 2025 GoRails. All Rights Reserved.</p>
-            </div>
-        </footer>
-    </footer>
+          </div>
+          -->
+              <div class="login-user-desktop">
+                <div class="login-wrapper">
+                  <div class="login btn">
+                    <span class="d-flex-ai-c logn_icon"><i class="i-person user-icon f22 c_333 "></i></span>
+                    <div class="user-detail">
+                      <div class="detail">
+                        <a href="/login" class="login_link">Login</a>
+                      </div>
+                      <div class="detail">
+                        <a href="/login" class="login_link">Register</a>
+                      </div>
+                    </div>
 
-    <div id="loginModal" class="modal">
-        <form class="modal-content">
-            <span class="close" onclick="closeLogin()">&times;</span>
-            <h1 style="text-align: center;">Login</h1>
-            <p style="text-align: center;">Welcome!</p>
-            <input type="text" placeholder="User Name" required>
-            <input type="password" placeholder="Password" required>
-            <label>
-                <input type="checkbox"> Remember me
-            </label>
-            <p style="text-align: center;">New User? <a href="#">Signup</a></p>
-            <button type="submit">LOGIN</button>
-        </form>
+                  </div>
+                  <div class="login user_info">
+                    <img src="" srcset=""
+                      width="34" height="34" alt="User" class="mr8 userGender user_pic" />
+                    <div class="user-detail">
+                      <div class="detail">
+                        <a href="/auth/profile">
+                          <div class="d-flex-ai-c">
+                            <img src=""
+                              srcset="" width="60" height="60" alt="User"
+                              class="mr14 userGender user_pic" />
+                            <div class="user-info">
+                              <span class="user f16 userName no_newline t_tra_cap"></span>
+                              <span class="t_underline f14">View Profile</span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="detail">
+                        <a href="/auth/bookings">My Bookings</a>
+                      </div>
+                      <!-- Hide TM Cash
+                      <div class="detail">
+                        <a href="/wallet">
+                          <div class="d-flex-jc-sb">
+                            <span>TMCash</span>
+                            <span class="d-flex-ai-c f16">
+                              <i class="i-tm_cash_wallet f28 lh_20 c_primary"></i> <span id="tm_cash_balance"></span>
+                            </span>
+                          </div>
+                        </a>
+                      </div>
+                      -->
+                      <div class="detail logout-pad" id="logout">Logout</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
-    <div id="registerModal" class="modal">
-        <form class="modal-content">
-            <span class="close" onclick="closeRegister()">&times;</span>
-            <h2>Register</h2>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit">Register</button>
-        </form>
-    </div>
+ 
+        <main><div class="home">
+  
+    <!-- Hero Banner -->
 
-    <script src="script.js"></script>
+    <div class="home-banner slides1 section-gap">
+      <div class="hero-banner-inner">
+        <div class="side-offer-slider slider">
+          
+            <div class="slide">
+              <a href="">
+                <div class="banner_content">
+                  <div class="container hero_content">
+                    <label
+                      class="f40 c_white d_block f_bold mb26">Beat The Heat!</label>
+                    <label
+                      class="f28 c_white d_block mb20">Plan Your Summer Train Journey</label>
+                    <span class="d_i_block mb10 btn f_bold">Book Now</span>
+                    <label class="f14 c_white d_block">*T&C Apply</label>
+                  </div>
+                </div>
+                <div class="hero_img" style="background-image: url(https://www.trainman.in/tm-prod-static-content/Offers/banners/web_banners/banner_4.jpg);">&nbsp;</div>
+                 
+              </a>
+            </div>
+            
+            <div class="slide">
+              <a href="https://www.adanione.com/adani-one-icici-bank-credit-cards?utm_source=trainman_hp&utm_medium=banner&utm_campaign=adl_cobrand_campaign">
+                <div class="banner_content">
+                  <div class="container hero_content">
+                    <label
+                      class="f40 c_white d_block f_bold mb26">Earn up to 7% Adani Reward Points</label>
+                    <label
+                      class="f28 c_white d_block mb20">Book train tickets via Trainman with Adani One</label>
+                    <span class="d_i_block mb10 btn f_bold">Explore Now</span>
+                    <label class="f14 c_white d_block">*T&C Apply</label>
+                  </div>
+                </div>
+                <div class="hero_img" style="background-image: url(https://www.namniart.in/tm-prod-static-content/assets/banners/adani_icici_card.jpg);">&nbsp;</div>
+                 
+              </a>
+            </div>
+            
+            <div class="slide">
+              <a href="https://www.trainman.in/fcs/terms-and-conditions">
+                <div class="banner_content">
+                  <div class="container hero_content">
+                    <label
+                      class="f40 c_white d_block f_bold mb26">Free Cancellation</label>
+                    <label
+                      class="f28 c_white d_block mb20">Full Refund on train ticket cancellation</label>
+                    <span class="d_i_block mb10 btn f_bold">Explore Now</span>
+                    <label class="f14 c_white d_block">*T&C Apply</label>
+                  </div>
+                </div>
+                <div class="hero_img" style="background-image: url(https://www.namniart.in/tm-prod-static-content/assets/banners/fcs_pro.jpg);">&nbsp;</div>
+                 
+              </a>
+            </div>
+            
+            <div class="slide">
+              <a href="https://www.trainman.in/ta/terms-and-conditions">
+                <div class="banner_content">
+                  <div class="container hero_content">
+                    <label
+                      class="f40 c_white d_block f_bold mb26">Trip Assurance</label>
+                    <label
+                      class="f28 c_white d_block mb20">Get 3X fare refund or Free Flight</label>
+                    <span class="d_i_block mb10 btn f_bold">Explore Now</span>
+                    <label class="f14 c_white d_block">*T&C Apply</label>
+                  </div>
+                </div>
+                <div class="hero_img" style="background-image: url(https://www.namniart.in/tm-prod-static-content/assets/banners/trip_assurance.jpg);">&nbsp;</div>
+                 
+              </a>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+    
+
+      
+
+          <!-- SEARCH widget -->
+          <div class="no-tabs">
+            <!-- Train Search Card -->
+<div class="train-search-card" id="train-search-card">
+  <div class="container search-widget-container">
+    <div class="card">
+      <div class="mobile-only close-overlay mb10">
+        <div class="mb10" onclick="toggleMobileSearchOverlay()"><i class="i-cross"></i></div>
+        <div class="f22 f_bold mb10 mt12">Modify Search</div>
+      </div>
+
+      <!-- tab -->
+      <div class="tabs d-flex-jc-sb">
+        <ul>
+          
+            
+              <li class="tab-item active fromToSearch" style="width:195px">
+                <span></span>
+                <div>Book Train Tickets</span>
+              </li>
+              
+                
+            
+              <li class="tab-item  pnrSearch" style="width:145px">
+                <span></span>
+                <div>PNR Status</span>
+              </li>
+              
+                
+            
+              <li class="tab-item  trainSearch" style="width:175px">
+                <span></span>
+                <div>Running Status</span>
+              </li>
+              
+                
+        </ul>
+        <div class="irctc d-flex-center desktop-only">
+          <img src="/seo-ui-assets/assets/images/irctc.webp" alt="irctc" loading="eager" decoding="async">
+          <div><span class="strong">IRCTC </span> Authorised Partner</div>
+        </div>
+      </div>
+
+      <!-- Form Section -->
+       
+          
+            <div class="form-section active"><div class="search-by-station">
+  <ul class="d-flex form-wrapper">
+    <div class="content-heading mb26">Book Train Tickets</div>
+    <li class="form-container">
+      <div class="from-to">
+        <div class="input-container first-input from">
+          <div class="icon"></div>
+          <span class="shimmer"></span>
+          <label for="fromStation" class="label">From Station </label>
+          <input type="text" class="myReadonlyInput station no_newline" id="fromStation" autocomplete="off" required />
+          <div class="results" id="fromResult">
+            <ul></ul>
+          </div>
+
+        </div>
+        <div class="swap-from-to d-flex-center">
+          <i class="i-roundtrip rotate" id="swap-from-to"></i>
+        </div>
+        <div class="input-container">
+          <div class="icon blank"><i class="i-location"></i></div>
+          <span class="shimmer"></span>
+          <label for="toStation" class="label">To Station </label>
+          <input type="text" class="myReadonlyInput station no_newline" id="toStation" autocomplete="off" required />
+          <div class="results" id="toResult">
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+      <div class="date input-container date-trigger">
+        <div class="icon blank"><i class="i-time-table-new"></i></div>
+        <span class="shimmer"></span>
+        <input type="text" id="datepicker" class="" readonly>
+        <label class="label" for="datepicker">Date </label>
+        <div style="display: none;" id="journeyDate"></div>
+        <div class="extra-date-actions">
+          <div class="tomorrow extra-date" data-extra="1">Tomorrow</div>
+          <div class="day-after extra-date" data-extra="2">Day after</div>
+        </div>
+
+
+      </div>
+      <div class="fcs">
+
+        <label for="fcs-checkbox" class="d-flex">
+          <div class="form-item d-flex-ai-c">
+            <input type="checkbox" name="fcs" id="fcs-checkbox">
+            <span></span>
+            <div class="label d-flex-jc-sb">
+              <div>
+                <div class="heading selected">Free Cancellation included</div>
+                <div class="heading not-selected">Get full refund on Cancellation</div>
+                <div class="sub-heading">Pay ZERO cancellation charges</div>
+              </div>
+              <img src="/seo-ui-assets/assets/images/fcs_icon.png" height="60" alt="Free Cancellation icon">
+            </div>
+          </div>
+        </label>
+
+      </div>
+
+    </li>
+    <li class="cta-container">
+      <div class="cta" id="searchfromToCTA">Search</div>
+    </li>
+  </ul>
+
+  <div id="overlay-form">
+    <ul>
+      <li class="overlay-form-container">
+        <div class="overlay-input-wrapper d-flex">
+          <div class="icon blank" id="overlay-back-button"><i class="i-arrow-left"></i>
+          </div>
+          <div class="from-to">
+            <div class="input-container first-input">
+              <div class="icon"></div>
+              <input type="search" class="myReadonlyInput" id="fromStationMobile" placeholder="Leaving from"
+                autocomplete="off" required />
+            </div>
+            <div class="swap-from-to ">
+              <i class="i-roundtrip rotate" id="swap-from-to"></i>
+            </div>
+            <div class="input-container">
+              <div class="icon blank"><i class="i-location"></i></div>
+              <input type="search" class="myReadonlyInput" id="toStationMobile" placeholder="Going to" autocomplete="off" required />
+            </div>
+          </div>
+        </div>
+
+        <div class="overlay-results-wrapper" id="searches">
+          <div id="no-results">
+            <img src="/seo-ui-assets/assets/images/searchNotFoundApp.png" alt="No Station found">
+            <div class="heading">Station not found</div>
+            <div class="subtext">Check for spelling errors and try again.</div>
+            <!-- <div id="no-result-cta" onclick="focusActiveInput()">Modify Search</div> -->
+          </div>
+          <ul>
+
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<div id="overlay" class="overlay1"></div>
+<div id="offcanvas" class="offcanvas">
+  <button class="close-btn unstyled-btn">
+    <i class="i-cross f22" onclick="window.toggleCalendar(false)"></i>
+  </button>
+  <div class="calendar-header mb10 f22 f_bold mt10">Select Departure Date</div>
+  <div class="offcanvas-body">
+    <div role="link" tabindex="0" class="globalSearch show">
+      <div class="globalSearchDetail trains_sevices__search" data-auto-id="data_searchBox">
+        <div type="text" id="datepickermobile">
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+          
+
+          
+          
+          
+          
+          
+          
+       
+          
+
+          
+          
+          
+            <div class="form-section "><div class="single-form-layout">
+  <div class="form-item input-container">
+    <input type="text" pattern="\d*" maxlength="10"id="searchByPNR" autocomplete="off" required
+      title="Please enter 10 digit PNR number" />
+    <label for="searchByPNR" class="label">Enter 10-Digit PNR Number </label>
+  </div>
+
+  <div class="cta" id="ctaSearchByPNR" data-url="/pnr">Check PNR Status</div>
+</div></div>
+          
+          
+          
+          
+       
+          
+
+          
+            <div class="form-section "><div class="single-form-layout">
+  <div class="form-item input-container">
+    <input type="text" id="trainNumberName" autocomplete="off" class="no_newline" required
+      value="" />
+    <label for="trainNumberName" class="label">Enter Train Number or Name </label>
+    <ul class="results" id="trainSearchResults">
+    </ul>
+  </div>
+
+  <div class="cta" id="SearchNameNumber" data-url="running-status">Search Trains</div>
+</div></div>
+          
+          
+          
+          
+          
+          
+      
+
+      <div class="irctc mobile-only d-flex-center">
+        <img src="/seo-ui-assets/assets/images/irctc.webp" alt="irctc" loading="eager" decoding="async">
+        <div><span class="strong">IRCTC </span> Authorised Partner</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="floating-widget">
+    <ul>
+      <li onclick="toggleMobileSearchOverlay('fromToSearch')">
+        <div class="d-flex-center flex_dir_col"> 
+          <div class="icon"><i class="i-mytrip"></i></div>
+          <div class="label">Book Train</div>
+        </div>
+      </li>
+      <li onclick="toggleMobileSearchOverlay('trainSearch')">
+        <div class="d-flex-center flex_dir_col"> 
+          <div class="icon"><i class="i-train-new"></i></div>
+          <div class="label">Modify Search</div>
+        </div>
+      </li>
+      <li onclick="shareLink()">
+        <div class="d-flex-center flex_dir_col"> 
+          <div class="icon"><img src="/seo-ui-assets/assets/images/share.svg" style="filter: invert(1); height: 18px;" alt=""></div>
+          <div class="label">Share</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+          </div>
+          
+            
+              <div class="home-offers mb100 m_mb42 slick-arrow-top">
+                <div class="container">
+                
+                  <h2 class="f28 m_f22 f_bold mb24 c_222">Offers and Discounts</h2> 
+                  
+                  <ul class="offersSlide m_f_xscroll device_desktop">
+                    
+                      <li>
+                        <a href="https://www.trainman.in/fcs/terms-and-conditions"><img src="https://www.namniart.in/tm-prod-static-content/Offers/2025-web/Web-fcs-offer.jpg"
+                            srcset="https://www.namniart.in/tm-prod-static-content/Offers/2025-web/Web-fcs-offer.jpg" width="299" height="186"
+                            alt="offer" loading="eager"/></a>
+                        
+                      <li>
+                        <a href="https://www.trainman.in/ta/terms-and-conditions"><img src="https://www.namniart.in/tm-prod-static-content/Offers/2025-web/Web-TA-offer.jpg"
+                            srcset="https://www.namniart.in/tm-prod-static-content/Offers/2025-web/Web-TA-offer.jpg" width="299" height="186"
+                            alt="offer" loading="eager"/></a>
+                        
+                      <li>
+                        <a href="https://www.adanione.com/adani-one-icici-bank-credit-cards?utm_source=trainman_hp&amp;utm_medium=banner&amp;utm_campaign=adl_cobrand_campaign"><img src="https://www.namniart.in/tm-prod-static-content/Offers/2025-web/WEB_CoBrand_2.jpg"
+                            srcset="https://www.namniart.in/tm-prod-static-content/Offers/2025-web/WEB_CoBrand_2.jpg" width="299" height="186"
+                            alt="offer" loading="lazy"/></a>
+                        
+                      <li>
+                        <a href="https://www.trainman.in/offer-details?offer=mobikwik-offer"><img src="https://www.namniart.in/tm-prod-static-content/Offers/2025-web/Web-Mobikwik-offer-web.jpg"
+                            srcset="https://www.namniart.in/tm-prod-static-content/Offers/2025-web/Web-Mobikwik-offer-web.jpg" width="299" height="186"
+                            alt="offer" loading="lazy"/></a>
+                        
+                      </li>
+                  </ul>
+                </div>
+              </div>
+              
+
+              
+
+                <!-- Why Book Train Tickets with Us? -->
+                <div class="why mb100 m_mb42">
+                  <div class="container">
+                    <h2 class="f28 m_f22 f_bold mb24 c_222">Why Book Train Tickets with Us?</h2>
+                    <ul class="d_flex m_f_xscroll">
+                      
+                        <li>
+                          <figure class="mb20">
+                            
+                              <img class="br12 w100" alt="Free Cancellation" src="/seo-ui-assets/assets/images/home/why/web/free_cancellation.png" loading="lazy" />
+                              
+                                
+                          </figure>
+                          <label class="f18 m_f16 f_bold c_333 mb4 d_block"> Free Cancellation </label>
+                          <p class="f14 c_666 m_lh_20">Get a full refund on your ticket cancellation.</p>
+                        </li>
+                        
+                        <li>
+                          <figure class="mb20">
+                            
+                              <img class="br12 w100" alt="94% Accurate Predictions" src="/seo-ui-assets/assets/images/home/why/web/accurate_predictions.png" loading="lazy" />
+                              
+                                
+                          </figure>
+                          <label class="f18 m_f16 f_bold c_333 mb4 d_block"> 94% Accurate Predictions </label>
+                          <p class="f14 c_666 m_lh_20">Know your chances of ticket confirmation</p>
+                        </li>
+                        
+                        <li>
+                          <figure class="mb20">
+                            
+                              <img class="br12 w100" alt="No Payment Gateway Fee" src="/seo-ui-assets/assets/images/home/why/web/no_payment_gateway_fee.png" loading="lazy" />
+                              
+                                
+                          </figure>
+                          <label class="f18 m_f16 f_bold c_333 mb4 d_block"> No Payment Gateway Fee </label>
+                          <p class="f14 c_666 m_lh_20">Zero Payment Gateway Charges via UPI mode</p>
+                        </li>
+                        
+                        <li>
+                          <figure class="mb20">
+                            
+                              <img class="br12 w100" alt="Expert Customer Support" src="/seo-ui-assets/assets/images/home/why/web/expert_customer_suport.png" loading="lazy" />
+                              
+                                
+                          </figure>
+                          <label class="f18 m_f16 f_bold c_333 mb4 d_block"> Expert Customer Support </label>
+                          <p class="f14 c_666 m_lh_20">Get answers to all your queries within minutes</p>
+                        </li>
+                        
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Popular Destinations -->
+                <div class="popularDestinations mb100 m_mb42 slick-arrow-top">
+                  <div class="container">
+                    <h2 class="f28 m_f22 f_bold mb24 c_222">Popular Destinations</h2>
+                    <ul class="popSlide d_flex m_f_xscroll device_desktop">
+                      
+                        <li>
+                          <a href="https://www.trainman.in/train-between-stations?to_station=Mumbai-Central-MMCT">
+                            <figure>
+                              
+                                <img class="w100" loading="lazy" src="/seo-ui-assets/assets/images/home/popularDestinations/web/mumbai.jpg" />
+                                
+                                  
+                            </figure>
+                            <aside class="t_left m_t_center">
+                              <label class="f18 f_bold c_333 m_f16"> Mumbai </label>
+                            </aside>
+                          </a>
+                        </li>
+                        
+                        <li>
+                          <a href="https://www.trainman.in/train-between-stations?to_station=Ahmedabad-Jn-ADI">
+                            <figure>
+                              
+                                <img class="w100" loading="lazy" src="/seo-ui-assets/assets/images/home/popularDestinations/web/ahmedabad.jpg" />
+                                
+                                  
+                            </figure>
+                            <aside class="t_left m_t_center">
+                              <label class="f18 f_bold c_333 m_f16"> Ahmedabad </label>
+                            </aside>
+                          </a>
+                        </li>
+                        
+                        <li>
+                          <a href="https://www.trainman.in/train-between-stations?to_station=Varanasi-Jn-BSB">
+                            <figure>
+                              
+                                <img class="w100" loading="lazy" src="/seo-ui-assets/assets/images/home/popularDestinations/web/varanasi.jpg" />
+                                
+                                  
+                            </figure>
+                            <aside class="t_left m_t_center">
+                              <label class="f18 f_bold c_333 m_f16"> Varanasi </label>
+                            </aside>
+                          </a>
+                        </li>
+                        
+                        <li>
+                          <a href="https://www.trainman.in/train-between-stations?to_station=Lucknow-Jn-LJN">
+                            <figure>
+                              
+                                <img class="w100" loading="lazy" src="/seo-ui-assets/assets/images/home/popularDestinations/web/lucknow.jpg" />
+                                
+                                  
+                            </figure>
+                            <aside class="t_left m_t_center">
+                              <label class="f18 f_bold c_333 m_f16"> Lucknow </label>
+                            </aside>
+                          </a>
+                        </li>
+                        
+                        <li>
+                          <a href="https://www.trainman.in/train-between-stations?to_station=Patna-Jn-PNBE">
+                            <figure>
+                              
+                                <img class="w100" loading="lazy" src="/seo-ui-assets/assets/images/home/popularDestinations/web/patna.jpg" />
+                                
+                                  
+                            </figure>
+                            <aside class="t_left m_t_center">
+                              <label class="f18 f_bold c_333 m_f16"> Patna </label>
+                            </aside>
+                          </a>
+                        </li>
+                        
+                        <li>
+                          <a href="https://www.trainman.in/train-between-stations?to_station=Jaipur-JP">
+                            <figure>
+                              
+                                <img class="w100" loading="lazy" src="/seo-ui-assets/assets/images/home/popularDestinations/web/jaipur.jpg" />
+                                
+                                  
+                            </figure>
+                            <aside class="t_left m_t_center">
+                              <label class="f18 f_bold c_333 m_f16"> Jaipur </label>
+                            </aside>
+                          </a>
+                        </li>
+                        
+                        <li>
+                          <a href="https://www.trainman.in/train-between-stations?to_station=Agra-City-AGA">
+                            <figure>
+                              
+                                <img class="w100" loading="lazy" src="/seo-ui-assets/assets/images/home/popularDestinations/web/agra.jpg" />
+                                
+                                  
+                            </figure>
+                            <aside class="t_left m_t_center">
+                              <label class="f18 f_bold c_333 m_f16"> Agra </label>
+                            </aside>
+                          </a>
+                        </li>
+                        
+                        <li>
+                          <a href="https://www.trainman.in/train-between-stations?to_station=Howrah-Jn-HWH">
+                            <figure>
+                              
+                                <img class="w100" loading="lazy" src="/seo-ui-assets/assets/images/home/popularDestinations/web/kolkata.jpg" />
+                                
+                                  
+                            </figure>
+                            <aside class="t_left m_t_center">
+                              <label class="f18 f_bold c_333 m_f16"> kolkata </label>
+                            </aside>
+                          </a>
+                        </li>
+                        
+                        <li>
+                          <a href="https://www.trainman.in/train-between-stations?to_station=Trivandrum-Central-TVC">
+                            <figure>
+                              
+                                <img class="w100" loading="lazy" src="/seo-ui-assets/assets/images/home/popularDestinations/web/kerala.jpg" />
+                                
+                                  
+                            </figure>
+                            <aside class="t_left m_t_center">
+                              <label class="f18 f_bold c_333 m_f16"> Kerala </label>
+                            </aside>
+                          </a>
+                        </li>
+                        
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- FAQ -->
+                <div class="faq mb72 m_mb42">
+                  <div class="container">
+                    <h2 class="f28 m_f22 f_bold mb24 c_222">Frequently Asked Questions</h2>
+                    <div class="accordion section-gap common_accordion" id="faqAccordion">
+  <div class="ul">
+    
+      <div class="li">
+        <div class="header c_333">
+          Why book train tickets online with Trainman? 
+            <span><i class="i-arrow-left rotate"></i></span>
+        </div>
+        <div class="body">Through Trainman train tickets booking platform, traveling to your favourite destination is now easier than ever before. Now you can seamlessly search for and book your favourite destination in our mobile train ticket booking app in no time. Additionally, there are a plethora of great features like checking PNR status, live running status even in offline mode, coach position, and several others waiting to make your railway ticket booking experience enjoyable. </div>
+      </div>
+      
+      <div class="li">
+        <div class="header c_333">
+           How do I book train tickets online through Trainman? 
+            <span><i class="i-arrow-left rotate"></i></span>
+        </div>
+        <div class="body"><p class="mb20"> It's fairly simple to use Trainman for online ticket booking, follow the simple procedure- </p>
+        <ul class="mb16 ml24">
+        <li class="ls_disc mb10"> Visit the Trainman website or Trainman train booking mobile app </li>
+        <li class="ls_disc mb10"> Select the starting &amp; arrival destinations.</li>
+        <li class="ls_disc mb10">Select a train that you want to book train tickets for</li>
+        <li class="ls_disc mb10">Add your complete traveler's details</li>
+        <li class="ls_disc mb10">Proceed to our easy secure payment gateway.</li>
+        <li class="ls_disc mb10">Enter your original IRCTC username and password.</li>
+        <li class="ls_disc mb10"> Train Ticket booking confirmation via Email, SMS, will be sent to you. </li>
+        <li class="ls_disc mb20"> You can also check confirmed tickets in the My Trips option on our app/website </li>
+        </ul>
+        <p>That's it, online Indian railway ticket booking has never been easier. </p>
+        </div>
+      </div>
+      
+      <div class="li">
+        <div class="header c_333">
+           What is the maximum number of people I can book in a single train ticket booking? 
+            <span><i class="i-arrow-left rotate"></i></span>
+        </div>
+        <div class="body">
+        <p class="mb20"> As per the train ticket booking policy, you can only add 6 persons to your railway ticket booking. Here are the steps you can follow- </p>
+        <ul class="mb16 ml24">
+        <li class="ls_disc mb10"> Simply add the names and ages of the people traveling with you. </li>
+        <li class="ls_disc mb20"> Fill in all the necessary details along with the berth preference and meal option and you are good to go. </li>
+        </ul>
+        <p class="mb20"> For tatkal tickets booking, the maximum number reduces to 4 persons per booking. Two children below 5 years are allowed per booking, but not ticketed. The details of these travelers are also to be specified while tatkal tickets booking, though they are not mentioned in the tickets. </p>
+        <p>You can also choose the option to book the ticket when all berths are confirmed or all berths are in the same coach or if only one or two lower berths are provided.</p>
+        </div>
+      </div>
+      
+      <div class="li">
+        <div class="header c_333">
+           I don&#39;t have an IRCTC username or password, what should I do? 
+            <span><i class="i-arrow-left rotate"></i></span>
+        </div>
+        <div class="body"> It is important to have a username and password while booking an online ticket booking. But don't worry, as Trainman can help you create your username and password so that you easily proceed with your train ticket booking.</div>
+      </div>
+      
+      <div class="li">
+        <div class="header c_333">
+           How do I cancel my train ticket booking after confirmation? 
+            <span><i class="i-arrow-left rotate"></i></span>
+        </div>
+        <div class="body">
+        <p class="mb20"> Don't worry, you can easily cancel your online train booking through our website and train ticket booking app for Play Store. </p>
+        <ul class="mb16 ml24">
+        <li class="ls_disc mb10">Login to your Trainman Account</li>
+        <li class="ls_disc mb10">Go to “My Trips”</li>
+        <li class="ls_disc mb10">Select the train ticket you would like to cancel</li>
+        <li class="ls_disc mb10">Click on the “Cancel Order” button. And it's done!</li>
+        <li class="ls_disc mb10">Refund will be initiated to original Payment Source</li>
+        </ul>
+        </div>
+      </div>
+      
+      <div class="li">
+        <div class="header c_333">
+           What are the cancellation charges for online train ticket booking? 
+            <span><i class="i-arrow-left rotate"></i></span>
+        </div>
+        <div class="body">
+        <p class="mb20"> On cancellation of confirmed train tickets 48 hours before scheduled departure, charges will be: </p>
+        <ul class="mb16 ml24">
+        <li class="ls_disc mb10">Rs. 240/- for AC First Class/Executive Class,</li>
+        <li class="ls_disc mb10">Rs. 200/- for AC 2 Tier/First Class,</li>
+        <li class="ls_disc mb10">Rs.180 for AC 3 Tier/AC Chair car/ AC 3 Economy,</li>
+        <li class="ls_disc mb10">Rs.120/- for Sleeper Class and</li>
+        <li class="ls_disc mb10">Rs. 60/- for Second Class.</li>
+        </ul>
+        <p class="mb20"> Please note- The cancellation charges are applicable per ticket per passenger and will be deducted before processing the refunds. </p>
+        </div>
+      </div>
+      
+      <div class="li">
+        <div class="header c_333">
+            Why choose the Trainman android app over other train bookings apps?  
+            <span><i class="i-arrow-left rotate"></i></span>
+        </div>
+        <div class="body">
+        <p>
+        Along with a seamless train ticket booking experience, Trainman offers tons of exciting benefits and features. We predict PNR status with 95 percent accuracy while letting our users track their trains even in offline mode. What's more about train ticket booking you might ask? We offer credits to all our Trainman wallet users if they use our Android app for railway ticket booking. </p>
+        </div>
+      </div>
+      
+      <div class="li">
+        <div class="header c_333">
+           How Tatkal ticket booking is done and what is it?  
+            <span><i class="i-arrow-left rotate"></i></span>
+        </div>
+        <div class="body">
+        <p> Tatkal Booking in IRCTC is meant for last-minute and immediate plans. It's a feature that allows travelers to book train tickets online in case of emergencies. You can use the trainman app/website for tatkal tickets booking through IRCTC. <br _ngcontent-trainman-c131=""><br _ngcontent-trainman-c131=""> Tatkal timings start at 10:00 AM for AC train tickets and 11:00 AM for non-AC train tickets. Although it is recommended to plan your travel as the Tatkal quota in peak seasons and busiest routes are tough to get confirmed. </p>
+        </div>
+      </div>
+      
+      <div class="li">
+        <div class="header c_333">
+           How is Trainman different from others? 
+            <span><i class="i-arrow-left rotate"></i></span>
+        </div>
+        <div class="body">
+        <ul class="mb16 ml24">
+        <li class="ls_disc mb10"> Trainman is a one-stop-shop that helps enlighten the blind corners by providing software-led solutions to track and analyze the reservation data, enhance the user experience, and simplify checking running and PNR status. </li>
+        <li class="ls_disc mb10"> Using valuable insights and predictive analysis, Trainman makes sense of a vast amount of data to efficiently predict ticket confirmation status with 95 percent accuracy. </li>
+        <li class="ls_disc mb10"> Our app available for both iOS and Android, with over 10mn+ installations, helps people discover proactive ways to look for several trains between stations and easily book train tickets based on classes. </li>
+        </ul>
+        </div>
+      </div>
+      
+  </div>
+</div>
+
+                  </div>
+                </div>
+
+                <!-- Blogs  -->
+
+                <div class="home-blogs mb72 m_mb42 slick-arrow-top" id="blogs-container" style="display: none;"
+                  data-src="https://www.trainman.in/blog/services/blog-list/paginated/?key=077e230d-4351-4a84-b87a-7ef4e854ca59&amp;page=1&amp;limit=10">
+                  <div class="container">
+                    <h1 class="f28 m_f22 f_bold mb24 c_222">Travel Blogs</h1>
+                    <div class="mobile-offers offer-slides">
+                      <ul class="d_flex m_f_xscroll blogs-slider device_desktop">
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Premium Partners  -->
+                
+
+                    <!-- home-bottom-text -->
+                    <div class="home-bottom-text mb72 m_mb42">
+                      <div class="container">
+                        <h1 class="f28 m_f22 f_bold mb24 c_222">Train Ticket Booking Online</h1>
+                        <div class="truncate">
+                          <div class="truncatetext content mb20">
+                            
+        <p class="mb20"> We offer a hassle-free train ticket booking service online to everyone who loves to travel. To put it simply, train ticket booking through Trainman feels like a one-stop-shop solution that caters to every need related to train and coach travel. You can find all the latest news, train routes, and travel times from almost all the coach operators with the Trainman train ticket booking android app available on the play store. </p>
+        <p class="mb20">
+        If you have been plotting your travel for years and don't know where to begin, then our Train ticket booking platform seems like the perfect way to start. We help you buy train tickets online quickly and save your time, money, and effort. So you get to focus on enjoying the breathtaking scenery instead of going through the tireless paperwork. 
+        </p>
+        <p class="mb20">
+        You can search for train schedule tables, accurate PNR status predictions, and even use discount vouchers for your Trainman wallet while train ticket booking online. 
+        </p>
+        <p class="mb20">
+        We have the highest-rated train ticket booking app on Google Play Store. Our objective is to bring forth coach, train, and other several travel services under one single umbrella so you get the best prices and real-time travel information on the go. 
+        </p>
+        <p class="mb40">
+        No more getting tired in the lines, now conveniently search for live running status even when you are offline by just using your android device!! 
+        </p>
+        <h3 class="f22 f_bold mb40">Trainman - Our Mission</h3>
+        <h5 class="mb14 f18 f_bold"> Trainman Travel Booking Site - Our Mission </h5>
+          <p class="mb10"> Trainman is an IRCTC authorised online train ticket booking platform made with the purpose to make train travel more convenient with our comprehensive list of solutions. There's nothing like piercing through the heart of a big city and busting through the rich villages of India.  </p>
+          <p class="mb10"> Whether you want to enjoy Shimla's Toy Train or the exquisite Dudhsagar waterfall from the square window, let us know about your journey. And we promise to recommend the best prices on your train ticket booking along with services that are unheard of. </p>
+          <p class="mb10"> All the extensive paperwork, travel schedule timings, delayed or too early, coach position - Maybe let's not worry about it once? Train ticket booking should involve extensive plans for enjoyment and not a checklist. train ticket booking through Trainman feels like home, with a partner that you can trust and rely upon. </p>
+          <p class="mb10"> Search by name or travel between stations to seamlessly get all the desired results with our online train ticket booking platform. </p>
+          <p class="mb10"> More than 10mn+ plus users already trust us with their train ticket booking. Pay online through Trainman wallet now and start your travel journey! Trainman maintains one of India's largest and most up-to-date train databases. The following features are included in our mobile app: Train Search - Seat / Berth Availability with Predictions,PNR Status - with Predictions of Confirmation Time Table/Schedule - with Offline Access, Seat Availability . You can manage your trips, inquire about fares, and use a fare calculator for Indian rail travelers while booking online train tickets. </p>
+          <p class="mb30"> Developed with a strong focus on different technological initiatives that blend the latest technologies with innovative solutions to confer your every need. Trainman is a perfect amalgamation of creativity and innovation that crafts the most advanced solutions for all your problems.</p>
+          <h5 class="mb14 f18 f_bold"> Trainman Train Ticket Booking </h5>
+          <p class="mb10">On Trainman, you can get confirmed train tickets. Trainman is a one-stop-shop for confirmed train tickets for all of your railway ticketing needs. You can even predict PNR confirmation status after purchasing a train ticket and learn about all of your options for obtaining a confirmed train ticket for your train reservation.</p>
+          <p class="mb10">Trainman is India's most popular website for checking train seat availability, e-rail ticket availability, and ticket purchasing progress. We'll make sure that waiting for tickets is a thing of the past for you! </p>
+          <p class="mb10">The next time you find yourself waiting for all of the trains, don't worry since we are your one-stop-shop for all of your train ticket booking troubles and concerns! train booking and inquiry is underpinned by a proprietary and efficient algorithm that anticipates your PNR in seconds using past data. </p>
+          <p class="mb40">It might also help you decide whether or not to book rail tickets if the train is in the queue. We can assist you in making your train ticket booking a pleasant experience.</p>
+          <h5 class="mb14 f18 f_bold">Trainman Train Ticket Reservation</h5> 
+          <p class="mb10">With a route length of more than 65,000 kilometers, Indian Railways is one of the world's largest rail networks. The Indian Railway Catering and Tourism Corporation (IRCTC) is the public face of India's online train ticket buying system. </p>
+          <p class="mb10">Trainman is the top online booking portal for train tickets, providing the most simple options to book train tickets, check train schedules, train availability, and monitor live train status. IRCTC has long been the most popular website for booking train tickets. </p>
+          <p class="mb10">Train travel is a popular mode of transportation for both short commutes and extended journeys, and with good reason. Traveling by rail is the most convenient means of transportation in India, with over a thousand routes linking cities. </p>
+          <p class="mb10">Train travel is a great option for travelers because of the combination of price, convenience, and speed. Trainman railway booking technology now allows travelers to search routes, compare costs, and book train tickets.You can also use the Trainman app for quick access. </p>
+          <p class="mb10">Trainman provides you with the most dependable and secure train booking service, and all you have to do is organize your route. Our consumers will find the site to be user-friendly. Instead of standing in line for hours to book a train ticket, you can go to the website. </p>
+          <p class="mb42">Trainman's online railway ticket booking technology allows you to book your travel package from any location. All you have to do is input your IRCTC login details and you'll have all the information you need.</p> 
+          <h3 class="f22 f_bold mb14">Why Choose Trainman?</h3>
+          <p class="mb10"> For train ticket booking, use the IRCTC authorised partner app. Increase your chances of receiving confirmed train tickets by using our same train alternates and forecast feature.  </p>
+          <p class="mb40">Book tickets on this IRCTC authorised App and get additional benefits such as a 100% refund on cancellation, fast refund initiation, PNR status and confirmation notification, train tracks, and dedicated 24X7 customer service.</p>
+          <h5 class="mb14 f18 f_bold"> Features of Trainman </h5>
+          <p class="mb20">  Train ticket booking app - Complete train booking app for Indian railways - tickets, train status, PNR status, Platform number and coach position to board, Rail Wisdoms.  </p> 
+          <ol class="mb40">
+            <li> Live Train Running Status - The best Indian railway app for finding out where my train is running. Get the status of your train's delay or on-time arrival. The GPS feature in the app allows you to see the estimated train arrival time (ETA) at upcoming stations. Even if they are not connected to the internet, travelers can check the live train location by typing the train name or number. </li>
+            <li> PNR Status and Confirmation Probability - Check your PNR Status and Confirmation Probability to see how likely your waitlisted tickets are to be confirmed. </li>
+            <li> Indian Railways Train Time Table - Download the Trainman train app for the most up-to-date Indian Railways train schedule (even in offline mode). Check the status of trains between stations in real time. <br ><br> Trainman is the best railway app for train ticket bookings, train coach layouts, live train running status, PNR prediction, and other rail-related information. </li>
+            <li> Train Fare Enquiry - The quickest way to book a train ticket online. View booking fares for Rajdhani, Duronto, Shatabdi, Jan Shatabdi, Garib Rath, and other trains between stations and coach types. Enjoy the added convenience of hassle-free trip planning and quicker train ticket buying. With Trainman, you can get a quick refund on online ticket cancellations. <br><br> Switch To Preferred Language - Use your preferred language to navigate the app. English, Hindi, Marathi, Telugu, Malayalam, Kannada, Bengali, Tamil, and Gujrati are among the languages available. </li>
+          </ol> 
+          <h5 class="mb14 f18 f_bold"> What Makes Trainman Different? </h5>
+          <ol class="mb40">
+            <li> 
+              <p>
+              Keeps you up to date on PNR status changes via alerts:
+              </p>
+              <ul class="mb16 ml24">
+        <li class="ls_disc mb10">  Aids in the prediction of PNR status confirmations for waitlisted tickets before charting preparations, allowing you to make an informed decision regarding your voyage.  </li>
+        <li class="ls_disc mb10"> View trends in wait times for specific trains. </li> 
+        </ul>
+            </li>
+            <li> Live GPS Tracking &amp; Schedules - <br/> Train Timings &amp; Schedules are automatically saved, allowing you to view them as well as the live train status in offline mode! </li>
+            <li> If you've ever been concerned about train delays, your current location, or your projected arrival time, or if you've ever wondered, "Where is my Train?" The live GPS tracking software from Trainman is ideal! </li>
+            <li>Get real-time information on the Train Coach Position.</li>
+            <li> Offline &amp; Online - Live train monitoring using GPS, current location + position of railway coaches </li>
+          </ol> 
+          <h5 class="mb14 f18 f_bold">A Step Ahead- Information Based Travel With Trainman </h5>
+          <p class="mb40">We will make sure that traveling on waitlisted tickets is a thing of the past for you! The next time you discover that all of the trains are on hold, don't worry since we are your one-stop-shop for all train ticket booking troubles and concerns!  </p>
+          <h3 class="f22 f_bold mb14">IRCTC (Indian Railway Catering and Tourism Corporation)</h3>
+          <p class="mb10"> On the website of IRCTC, one can check the status of their PNR, view their tickets, print them, or cancel them. The Indian Railways website generates thousands of bookings each day; it all started with IRCTC deciding to reduce agent dependency, the stress of queuing at the railway counter, and so on. </p>
+          <p class="mb10">People now have the luxury of browsing numerous trains for their journey, understanding the arrival and departure stations of the train they like to travel to, planning their budget, and then booking their train ticket accordingly, thanks to the establishment of online train ticket booking. </p>
+          <p class="mb10"> IRCTC is a platform where you can primarily book train tickets online, as well as organize your vacation, order meals, and book train tourism packages. IRCTC is the market leader in online train tickets booking and also offers I-tickets, which are simply normal tickets that are ordered online and delivered to your door via post. The IRCTC website is one of the busiest. Apart from online railway ticket purchasing, it provides 24*7 help for train timetables, train routes, train ticketing, train rates, and seat availability.  </p>
+          <p class="mb10">Allow us to demonstrate our magic by forecasting your train tickets confirmation chances before you book! We are here to support everyone, whether you are a daily commuter, a business traveler, or on holiday. Trainman manages one of India's largest and most up-to-date train databases. </p>
+          <ul class="mb16 ml24">
+          <li class="ls_disc mb10"> Trainman is a one-stop-shop that helps enlighten the blind corners by providing software-led solutions to track and analyze the reservation data, enhance the user experience, and simplify checking running and PNR status. </li>
+          <li class="ls_disc mb10"> Using valuable insights and predictive analysis, Trainman makes sense of a vast amount of data to efficiently predict ticket confirmation status with 95 percent accuracy. </li>
+          <li class="ls_disc mb10"> Our app available for both iOS and Android, with over 10mn+ installations, helps people discover proactive ways to look for several trains between stations and easily book train tickets based on classes. </li>
+          </ul>
+          <ul class="mb16 ml24">
+            <li class="ls_disc mb10">PNR status data with Confirmation Probability.</li>
+            <li class="ls_disc mb10"> Live Train Status, but with a real-time GPS Location system that adds to the joy and fascination of the experience. </li>
+            <li class="ls_disc mb10"> Train timetable has Offline timetable capability, so that it may be checked without Internet connectivity. </li>
+            <li class="ls_disc mb10"> You can prevent delayed trains by researching the operating times of trains between two stops. </li>
+            <li class="ls_disc mb10"> If you use local trains and metros on a daily basis, Trainman has all the information you need. </li>
+            <li class="ls_disc mb10"> Fantasy and entertainment: Learn the real-time speed of your train as well as numerous knowledge about Indian Railways and stops. </li>
+            <li class="ls_disc mb10">Trip Sharing in Real-Time.</li>
+          </ul>
+          <p class="mb10"> We aspire to create the most responsive, mobile-friendly website, answering all of your rail travel questions in a few taps. A comprehensive center of railway travel information dedicated to providing its users with intelligent information, all under one roof, to help them plan and make smarter train travel decisions. </p>
+      
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+</div>
+
+<!-- Bottom mobile nav -->
+
+
+    </main>
+        
+          <!-- All Footer -->
+
+<!-- Quick Connects -->
+<div class="quick-links mt12 mb12">
+  <div class="footer-contact mb52">
+    <div class="container">
+      <ul class="d_flex flex_dir_row m_flex_dir_col f_gap40 m_f_gap20">
+        
+        <li>
+          <a class="d_flex p_rel flex_dir_col m_flex_dir_row flex_ai_cent py16 px38" href="https://www.trainman.in/chat-support">
+            <span class="d_block t_center mb20 m_mb0 c_primary mr0 m_mr18">
+              <i class="i-feedback f20 m_f24"></i>
+            </span>
+            <div class="details t_center m_t_left d_flex flex_ai_cent">
+              <aside class="w100">
+                <label class="d_block c_323 mb10 f16 f_bold">Chat Support</label>
+                <span class="d_block f14 c_646 lh_20">Looking for something? We are here for you. Ask away!</span>
+              </aside>
+            </div>
+            <span class="d_block t_center c_828 icon-rotate mobile">
+              <i class="i-arrow-left"></i>
+            </span>
+          </a>
+        </li>
+        
+        <li>
+          <a class="d_flex p_rel flex_dir_col m_flex_dir_row flex_ai_cent py16 px38" href="https://www.trainman.in/faqs">
+            <span class="d_block t_center mb20 m_mb0 c_primary mr0 m_mr18">
+              <i class="i-faqs-1 f20 m_f24"></i>
+            </span>
+            <div class="details t_center m_t_left d_flex flex_ai_cent">
+              <aside class="w100">
+                <label class="d_block c_323 mb10 f16 f_bold">FAQs</label>
+                <span class="d_block f14 c_646 lh_20">All your frequently asked questions, answered in one place</span>
+              </aside>
+            </div>
+            <span class="d_block t_center c_828 icon-rotate mobile">
+              <i class="i-arrow-left"></i>
+            </span>
+          </a>
+        </li>
+        
+        <li>
+          <a class="d_flex p_rel flex_dir_col m_flex_dir_row flex_ai_cent py16 px38" href="https://play.google.com/store/apps/details?id=in.trainman.trainmanandroidapp">
+            <span class="d_block t_center mb20 m_mb0 c_primary mr0 m_mr18">
+              <i class="i-download-1 f20 m_f24"></i>
+            </span>
+            <div class="details t_center m_t_left d_flex flex_ai_cent">
+              <aside class="w100">
+                <label class="d_block c_323 mb10 f16 f_bold">Download App</label>
+                <span class="d_block f14 c_646 lh_20">Get the App and access a world of goodness</span>
+              </aside>
+            </div>
+            <span class="d_block t_center c_828 icon-rotate mobile">
+              <i class="i-arrow-left"></i>
+            </span>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <!-- All Linkes wrap here -->
+    <div id="footer-links" class="links">
+      <ul>
+        
+        <li>
+          <h3 class="popular-h-gap">Popular Train Routes <span><i class="i-arrow-left rotate"></i></h3>
+          <div class="links-wrapper">
+            <div class="popular-list-container">
+              <div class="details">
+                <ul class="d-flex-ai-c">
+                  
+                  <li>
+                    <a href="/book-rail-ticket/delhi-to-mumbai-trains">
+                      Delhi to Mumbai Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/delhi-to-jaipur-trains">
+                      Delhi to Jaipur Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/mumbai-to-pune-trains">
+                      Mumbai to Pune Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/delhi-to-patna-trains">
+                      New Delhi to Patna Jn Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/patna-to-delhi-trains">
+                      Patna Jn to New Delhi Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/kanpur-to-delhi-trains">
+                      Kanpur Central to New Delhi Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/delhi-to-kanpur-trains">
+                      New Delhi to Kanpur Central Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/chennai-to-bangalore-trains">
+                      Chennai Central to Bengaluru City Jn Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/bangalore-to-chennai-trains">
+                      Bengaluru City Jn to Chennai Central Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/delhi-to-chandigarh-trains">
+                      New Delhi to Chandigarh Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/ahmedabad-to-surat-trains">
+                      Ahmedabad Jn to Surat Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/chennai-to-coimbatore-trains">
+                      Chennai Central to Coimbatore Jn Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/howrah-to-delhi-trains">
+                      Howrah Jn to New Delhi Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/surat-to-ahmedabad-trains">
+                      Surat to Ahmedabad Jn Trains
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/book-rail-ticket/delhi-to-allahabad-trains">
+                      New Delhi to Prayagraj Allahabad Junction Trains
+                    </a>
+                  </li>
+                  
+                </ul>
+                <a class="see-all" href="/sitemap/train-routes">See All</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        <li>
+          <h3 class="popular-h-gap">Popular Trains <span><i class="i-arrow-left rotate"></i></h3>
+          <div class="links-wrapper">
+            <div class="popular-list-container">
+              <div class="details">
+                <ul class="d-flex-ai-c">
+                  
+                  <li>
+                    <a href="/seat-availability/19038">
+                      Avadh Express
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12566">
+                      Bihar S Kranti
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/19037">
+                      Avadh Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/15708">
+                      Amrapali Express
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/15910">
+                      Avadh Assam Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12904">
+                      Golden Temple M
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/11061">
+                      Ltt Jaynagar Ex
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/15909">
+                      Avadh Assam Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12617">
+                      Mangladweep Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12802">
+                      Purushottam Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/14702">
+                      Aravali Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12863">
+                      Hwh Smvb Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12312">
+                      Netaji Express
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/13006">
+                      Amritsar Howrah Mail
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12321">
+                      Mumbai Mail
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12368">
+                      Vikramshila Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12506">
+                      North East Express
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12557">
+                      Sapt Kranti Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/13005">
+                      Howrah Amritsar Mail 
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12655">
+                      Navjeevan Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12625">
+                      Kerala Sf Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12322">
+                      Kolkata Mail
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/15484">
+                      Mahananda Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12618">
+                      Mngla Lksdp Exp
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/seat-availability/12311">
+                      Netaji Express
+                    </a>
+                  </li>
+                  
+                </ul>
+                <a class="see-all" href="/sitemap/train-routes">See All</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        
+        <li>
+          <h3 class="popular-h-gap">Popular Railway Stations <span><i class="i-arrow-left rotate"></i></h3>
+          <div class="links-wrapper">
+            <div class="popular-list-container">
+              <div class="details">
+                <ul class="d-flex-ai-c">
+                  
+                  <li>
+                    <a href="/station/new-delhi-ndls">
+                      New Delhi
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/patna-jn-pnbe">
+                      Patna Jn
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/kanpur-central-cnb">
+                      Kanpur Central
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/chennai-central-mas">
+                      Chennai Central
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/bengaluru-city-jn-sbc">
+                      Bengaluru City Jn
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/vaishno-devi-katra-svdk">
+                      Vaishno Devi Katra
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/chandigarh-cdg">
+                      Chandigarh
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/ahmedabad-jn-adi">
+                      Ahmedabad Jn
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/surat-st">
+                      Surat
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/vishakapatnam-vskp">
+                      Vishakapatnam
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/secunderabad-jn-sc">
+                      Secunderabad Jn
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/coimbatore-jn-cbe">
+                      Coimbatore Jn
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/surat-st">
+                      Surat
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/darbhanga-jn-dbg">
+                      Darbhanga Jn
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/secunderabad-jn-sc">
+                      Secunderabad Jn
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/vishakapatnam-vskp">
+                      Vishakapatnam
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/lokmanya-tilak-term-ltt">
+                      Lokmanya Tilak Term
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/gorakhpur-jn-gkp">
+                      Gorakhpur Jn
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/howrah-jn-hwh">
+                      Howrah Jn
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/prayagraj-allahabad-junction-pryj">
+                      Prayagraj Allahabad Junction
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/station/muzaffarpur-jn-mfp">
+                      Muzaffarpur Jn
+                    </a>
+                  </li>
+                  
+                </ul>
+                <a class="see-all" href="/sitemap/train-routes">See All</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        <li>
+          <h5 class="popular-h-gap">Company <span><i class="i-arrow-left rotate"></i></h5> 
+          <div class="links-wrapper">
+            <ul>
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="/blogs">Blogs</a></li>
+              <li><a href="/sitemap/trains-list">Sitemap</a></li>
+            </ul>
+          </div>
+        </li>
+        <li> 
+          <h5 class="popular-h-gap">Service <span><i class="i-arrow-left rotate"></i></h5>
+          <div class="links-wrapper">
+            <ul>
+              <li><a href="/pnr">PNR Status</a></li>
+              <li><a href="/coach-position">Coach Position</a></li>
+              <li><a href="/running-status">Running Status</a></li>
+              <li><a href="/seat-availability">Seat Availability</a></li>
+              <li><a href="/train-time-table">Time Table</a></li>
+              <li><a href="/fare">Fare Calculator</a></li>
+              <li><a href="/station">Station Details</a></li>
+            </ul>
+          </div>
+        </li>
+        <li> 
+          <h5 class="popular-h-gap">Features <span><i class="i-arrow-left rotate"></i></h5>
+          <div class="links-wrapper">
+            <ul>
+              <li><a href="/ta/terms-and-conditions">Trip Assurance</a></li>
+              <li><a href="/fcs/terms-and-conditions">Free Cancellation</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+        <h5 class="popular-h-gap">Help & Support <span><i class="i-arrow-left rotate"></i></h5>
+           
+          <div class="links-wrapper">
+            <ul>
+              <li><a href="/chat-support">Chat Support </a></li>
+              <li><a href="/faqs">FAQ</a></li>
+              <li><a href="/terms-and-conditions">Terms and Conditions</a></li>
+              <li><a href="/privacy-policy">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+        <h5 class="popular-h-gap">Connect with Us <span><i class="i-arrow-left rotate"></i></h5>
+           
+          <div class="links-wrapper">
+            <ul>
+              <li class="scaner-gap">
+                <i class="i-message"></i>
+                <a href="mailto:feedback@trainman.in">feedback@trainman.in</a>
+              </li>
+            </ul>
+            <h6>Scan to Download App</h6>
+            <div class="scanner">
+              <img src="/seo-ui-assets/assets/images/qr_code_app_download.jpg" width="80" height="80" alt="Scan Code" loading="lazy" />
+            </div>
+          </div>
+          <div class="trainman_logo">
+            <img src="/seo-ui-assets/assets/images/trainman-adani-logo.webp" width="220" height="55" loading="lazy" alt="Trainman" />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- Social and app download wrapper here -->
+    <div class="social-link-wrapper">
+      <div class="social-icons">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/trainman.in" target="_blank" aria-label="facebook"><i class="i-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/TrainmanIn" target="_blank" aria-label="x"><i class="i-x"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/trainman/" target="_blank" aria-label="linkedin"><i class="i-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCNDb5CM7EvPHgEvgcuS7UQQ" target="_blank" aria-label="youtube"><i class="i-youtube f14"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/trainman_official/" target="_blank" aria-label="instagram"><i class="i-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="apps-logo-wrapper">
+        <a target="_blank" aria-label="App Store" href="https://apps.apple.com/in/app/train-booking-pnr-trainman/id962054633">
+          <img src="/seo-ui-assets/assets/images/app-store-new-new.svg" alt="App Store" width="132" height="40" loading="lazy" />
+        </a>
+        <a target="_blank" aria-label="Google Play Store" href="https://play.google.com/store/apps/details?id=in.trainman.trainmanandroidapp">
+          <img src="/seo-ui-assets/assets/images/google-play-store-new.svg" alt="Google Play Store" width="132" height="40" loading="lazy" />
+        </a>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+      © Copyright 2014-2025. Stark Enterprise Private Limited
+    </div>
+  </div>
+
+  <div class="back-to-top-btn" *ngIf="showGoToTopButton && !isMobile" onclick="gotoTop()">
+    <div class="btn-label">
+      <i class="i i-arrow-left"></i>
+      <span>Back to Top</span>
+    </div>
+  </div>
+</div>
+<script>
+  function gotoTop() {
+    window.scrollTo(0, 0);
+  }
+</script>
+
+<script type="text/javascript"> 
+(function () {
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+if(!isMobile) {
+  window.ymConfig = {"bot":`x1710242066869`,"host":"https://cloud.yellow.ai"}; (function() { var w = window, ic = w.YellowMessenger; if ("function" === typeof ic) ic("reattach_activator"), ic("update", ymConfig); else { var d = document, i = function() { i.c(arguments) }; function l() { var e = d.createElement("script"); e.type = "text/javascript", e.async = !0, e.src = "https://cdn.yellowmessenger.com/plugin/widget-v2/latest/dist/main.min.js"; var t = d.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t) } i.q = [], i.c = function(e) { i.q.push(e) }, w.YellowMessenger = i, w.attachEvent ? w.attachEvent("onload", l) : w.addEventListener("load", l, !1)} })();
+}
+})();
+ </script>
+
+            
+              <div class="custom-toastr-container d-flex-ai-c">
+                
+              </div>
+
+              <div class="modal-container d-flex-ai-c" id="modal-container"> 
+                <div class="modal-wrapper"></div>
+              </div>
+
+              <script defer src="/seo-ui-assets/assets/js/jquery.js"></script>
+              <script defer src="/seo-ui-assets/assets/js/jquery-ui.js"></script>
+              <script defer src="/seo-ui-assets/assets/js/utils/ads-manager.js?v=2.0.358"></script>
+              <script defer src="/seo-ui-assets/assets/js/main.js?v=2.0.358"></script>
+              <script defer src="/seo-ui-assets/assets/js/components/header.js?v=2.0.358"></script>
+              <script defer src="/seo-ui-assets/assets/js/components/search-card.js?v=2.0.358"></script>
+
+
+      <!-- <script defer src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script> -->
+      <script defer src="/seo-ui-assets/assets/js/pages/slick.js"></script>
+      <script defer src="/seo-ui-assets/assets/js/pages/js_home.js?v=2.0.358"></script>
 </body>
+
+
 </html>
