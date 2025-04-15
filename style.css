@@ -39,7 +39,7 @@ header nav ul li a {
     padding: 250px 20px;
 }
 .banner {
-    background-image: url('https://media.canva.com/v2/image-resize/format:JPG/height:452/quality:92/uri:ifs%3A%2F%2F%2F17bc544a-4946-4a67-8c87-77e9acf030af/watermark:F/width:800?csig=AAAAAAAAAAAAAAAAAAAAAK1G8yPzMQBq0VgNwJ0SVV9zcGKp4hCrDitud0mw-w4C&exp=1744626525&osig=AAAAAAAAAAAAAAAAAAAAAHzf7RztjdcUqELD3pX2p6e5rIKvxXSq8zKN-9e1hiKz&signer=media-rpc&x-canva-quality=screen');
+    background: url('https://s.yimg.com/uu/api/res/1.2/aAc7HVnQWVH.xqllcygELg--~B/aD0yMzM4O3c9NDE1NjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pa_viral_news_uk_120/fddc3d374c6eb71f6d9b03e2d0a64b12') no-repeat center center fixed;
     background-size: cover; /* Ensures the image covers the entire banner */
     background-position: center; /* Centers the image */
 }
@@ -173,7 +173,7 @@ h1 {
 }
 
 .card {
-    background-color: #ffffff;
+    background-color: ;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -354,14 +354,14 @@ ul li a:hover {
     padding: 10px 0;
     border-top: 1px solid #ffffff;
 }
-body {
-    font-family: Arial, sans-serif;
-    background: url('https://s.yimg.com/uu/api/res/1.2/aAc7HVnQWVH.xqllcygELg--~B/aD0yMzM4O3c9NDE1NjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pa_viral_news_uk_120/fddc3d374c6eb71f6d9b03e2d0a64b12') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 50px;
-}
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    background: url('https://s.yimg.com/uu/api/res/1.2/aAc7HVnQWVH.xqllcygELg--~B/aD0yMzM4O3c9NDE1NjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pa_viral_news_uk_120/fddc3d374c6eb71f6d9b03e2d0a64b12') no-repeat center center fixed;*/
+/*    background-size: cover;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    padding: 50px;*/
+/*}*/
 
 .container {
     background-color: rgba(0, 0, 0, 0.7);
